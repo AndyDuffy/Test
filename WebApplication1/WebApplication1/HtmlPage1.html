@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+</head>
+<body>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="JavaScript.js"></script>
+    <link rel="stylesheet1.css" />
+
+    <h1 class="text-center">Pomodora Clock</h1>
+    <hr>
+    <div class="row">
+        <div class="col-sm-6">
+            <h3 class="text-right">Break</h3>
+        </div>
+
+        <div class="col-sm-6">
+            <h3 class="text-left">Session</h3>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 text-right">
+
+            <p id="myBreak">5</p>
+
+        </div>
+        <div class="col-sm-6 text-left">
+
+            <p id="mySession">25</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 text-right">
+
+            <input type="button" class="btn btn-info" id="breakLess" value="-">
+            <input type="button" class="btn btn-info" id="breakMore" value="+">
+
+        </div>
+        <div class="col-sm-6 text-left">
+
+            <input type="button" class="btn btn-info" id="sessionLess" value="-">
+            <input type="button" class="btn btn-info" id="sessionMore" value="+">
+
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-3 text-right"></div>
+        <div class="col-sm-3 text-right">
+            <p id="minutes">25</p>
+
+        </div>
+        <div class="col-sm-3 text-left">
+
+            <p id="seconds">00</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+
+            <input type="button" class="btn-lg btn-success" id="startClock" value="START">
+            <input type="button" class="btn-lg btn-danger" id="stopClock" value="STOP">
+
+        </div>
+        <div class="col-sm-12 text-center">
+
+            <input type="button" class="btn-sm btn-warning" id="resetClock" value="RESET">
+
+        </div>
+    </div>
+</body>
+</html>
